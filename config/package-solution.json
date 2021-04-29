@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sbf-solution-client-side-solution",
+    "id": "0a0750c7-e875-400d-8952-64da63d4e591",
+    "version": "1.0.0.33"
+  },
+  "paths": {
+    "zippedPackage": "solution/sbf-solution.sppkg"
+  }
+}

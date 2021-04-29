@@ -1,0 +1,66 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/quickLinks/QuickLinksWebPart.js",
+      "manifest": "./src/webparts/quickLinks/QuickLinksWebPart.manifest.json",
+      "outputPath": "./dist/quick-links-web-part.js"
+    },
+    {
+      "entry": "./lib/webparts/rotatingBanner/RotatingBannerWebPart.js",
+      "manifest": "./src/webparts/rotatingBanner/RotatingBannerWebPart.manifest.json",
+      "outputPath": "./dist/rotating-banner-web-part.js"
+    },
+    {
+      "entry": "./lib/webparts/upcomingBirthday/UpcomingBirthdayWebPart.js",
+      "manifest": "./src/webparts/upcomingBirthday/UpcomingBirthdayWebPart.manifest.json",
+      "outputPath": "./dist/upcoming-birthday-web-part.js"
+    },
+    {
+      "entry": "./lib/webparts/announcements/AnnouncementsWebPart.js",
+      "manifest": "./src/webparts/announcements/AnnouncementsWebPart.manifest.json",
+      "outputPath": "./dist/announcements-web-part.js"
+    },
+    {
+      "entry": "./lib/webparts/ourTeams/OurTeamsWebPart.js",
+      "manifest": "./src/webparts/ourTeams/OurTeamsWebPart.manifest.json",
+      "outputPath": "./dist/our-teams-web-part.js"
+    },
+    {
+      "entry": "./lib/webparts/adHocUpdates/AdHocUpdatesWebPart.js",
+      "manifest": "./src/webparts/adHocUpdates/AdHocUpdatesWebPart.manifest.json",
+      "outputPath": "./dist/ad-hoc-updates-web-part.js"
+    }
+  ],
+  "externals": {
+    "jquery": {
+      "path": "https://sbforgsg.sharepoint.com/SiteAssets/js/jquery.min.js",
+      "globalName": "jquery"
+    },
+    "bootstrap": {
+      "path": "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js",
+      "globalName": "jquery",
+      "globalDependencies": [
+        "jquery"
+      ]
+    },
+    "jqueryOld": {
+      "path": "https://sbforgsg.sharepoint.com/SiteAssets/js/jquery-1.9.1.js",
+      "globalName": "jqueryOld"
+    },
+    "carouFredSel": {
+      "path": "https://sbforgsg.sharepoint.com/SiteAssets/js/jquery.carouFredSel-6.2.1.js",
+      "globalName": "carouFredSel",
+      "globalDependencies": [
+        "jqueryOld"
+      ]
+    }
+  },
+  "localizedResources": {
+    "QuickLinksWebPartStrings": "webparts/quickLinks/loc/{locale}.js",
+    "RotatingBannerWebPartStrings": "webparts/rotatingBanner/loc/{locale}.js",
+    "UpcomingBirthdayWebPartStrings": "webparts/upcomingBirthday/loc/{locale}.js",
+    "AnnouncementsWebPartStrings": "webparts/announcements/loc/{locale}.js",
+    "OurTeamsWebPartStrings": "webparts/ourTeams/loc/{locale}.js",
+    "AdHocUpdatesWebPartStrings": "webparts/adHocUpdates/loc/{locale}.js"
+  }
+}
