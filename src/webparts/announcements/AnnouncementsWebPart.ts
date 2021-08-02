@@ -90,7 +90,7 @@ export default class AnnouncementsWebPart extends BaseClientSideWebPart<IAnnounc
           '<div class="carouselnews-content">' +
           // '<a href="' + displayFormUrl + '"><div class="news-time"> <i class="ms-Icon ms-Icon--CalendarMirrored" aria-hidden="true"></i> ' + this.getForamttedDate(item.Created) + '</div></a>' +
           '<div class="news-time"> <i class="ms-Icon ms-Icon--CalendarMirrored" aria-hidden="true"></i> ' + this.getForamttedDate(item.Effectivedate) + '</div>' +
-          '<a href="' + displayFormUrl + '" style="text-decoration: none;color: black;"><h5>' + item.Title + '</h5></a>' +
+          '<h5>' + item.Title + '</h5>' +
           '<p>' + annDescription + '</p>' +
           '</div>' +
           '</div>';
